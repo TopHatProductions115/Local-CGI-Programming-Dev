@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<title>Testing TXP Archive Program</title>
+
+<font face="arial, helvetica">
+
+<head>
+
+<center>
+<h1>Test TXP Program Archive</h1>
+
+</head>
+<body>
+
+<p id="paragraph">If this program works, the next line will list addons in the archive's plugin folder.</p>
+
+<br/>
+
+<iframe width="300" height="200" src="paradigm.txp\main\paradigm.cgi">
+Sorry; your GUI parser does not support HTML 5 iframes.
+</iframe>
+<br/>
+<h3>Log viewer/iFrame example</h3>
+<br/>
+<iframe width="300" height="200" src="paradigm.txp\log\paradigm.log">
+Sorry; your GUI parser does not support HTML 5 iframes.
+</iframe>
+<br/>
+
+<p id="info"><h4>If your copy of the parser works, this GUI page will display four lines of text (one of which will be considered dynamic) and an iframe with a directory listing of the addons folder in a standard TXP Archive.</h4></p>
+
+</body>
+<footer>
+
+<h3>Your test is complete; no errors detected so far...</h3>
+</center>
+
+</footer>
+</html>
